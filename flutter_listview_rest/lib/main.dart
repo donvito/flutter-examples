@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 
 //Custom widgets
 import 'JobsListView.dart';
 
 void main() {
-  debugPaintSizeEnabled = false;
   runApp(App());
 }
 
